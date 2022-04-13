@@ -1,0 +1,89 @@
+@import url('https://rsms.me/inter/inter.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    outline:0;
+}
+:root {
+    --main: #3C8AFF;
+    --main-hover: #3578DC;
+    --main-light: rgba(60, 138, 255, 0.5);
+    --cta: #00B900;
+    --cta-hover: #009900;
+    --light: #FAFAFA;
+    --dark: #363A43;
+    --txt-h: #2C3042;
+    --txt-p: #7A7E93;
+    --shadow: 0px 5px 30px rgba(24, 41, 64, 0.06);
+}
+h1,h2,h3,h4,h5,h6 {
+    color: var(--txt-h);
+}
+p {
+    color: var(--txt-p);
+}
+.cta-button {
+    background-color: var(--cta);
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+.cta-button:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--cta-hover);
+}
+.sec-button {
+    background-color: transparent;
+    border: 1px solid var(--main-light);
+    color: var(--main);
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: border 0.5s;
+}
+.sec-button:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--main);
+    border: 1px solid var(--main);
+}
+.blue-button {
+    background-color: var(--main);
+}
+.blue-button:hover {
+    background-color: var(--main-hover);
+}
+footer {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: var(--dark);
+}
+footer p {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#mail-footer {
+    color: #fff;
+}
+footer a {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 40px;
+}
+.social a {
+    opacity: 0.2;
+    color: #fff;;
+}
+.fab {
+    font-size: 60px;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+main {
+    height: 100vh;
+    padding: 10vh;
+}
+h1 {
+    font-size: 120px
+}
+.err {
+    text-align: center;
+}
+.blue-button {
+    width: fit-content;
+    display:block;
+    margin: auto;
+}

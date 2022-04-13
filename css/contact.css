@@ -1,0 +1,27 @@
+main {
+    height: 100vh;
+    padding-top: 5%;
+}
+form {
+    height: auto;
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+input,textarea {
+    color: var(--txt-p);
+    padding: 15px;
+    border: none;
+    width: 100%;
+    display: block;
+    background-color: var(--light);
+    margin-bottom: 20px;
+}
+textarea {
+    resize: none;
+    overflow-y: scroll;
+    display: block;
+}
+input:last-child {
+    width: fit-content;
+}

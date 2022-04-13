@@ -1,0 +1,34 @@
+main {
+    min-height: 100vh;
+    padding-top: 5vh;
+}
+.item {
+    padding: 0;
+    box-shadow: var(--shadow);
+}
+main img {
+    padding: 0;
+    float: left;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+}
+main section {
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+section a {
+    color: var(--txt-p);
+    top: 45%;
+    position: absolute;
+    right: 30px;
+}
+section a:hover {
+    text-decoration: none;
+    color: var(--txt-p);
+}
+input, select {
+    display: block;
+}
